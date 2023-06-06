@@ -1,4 +1,4 @@
-# backup-azure-fileshare
+# Backup Azure File Shares
 Respaldo automático de documentos desde un equipo local hacia un almacenamiento compartido en Azure ![image](https://github.com/cguerrero-soporte/backup-azure-fileshare/assets/54060479/ea4b532d-bd19-4c30-9a88-d7ebc82c5ce2)
 , verificando la cuota de la unidad para seleccionar el tipo de copia.
 
