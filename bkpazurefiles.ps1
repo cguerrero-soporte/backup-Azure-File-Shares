@@ -2,7 +2,7 @@
 $password = ConvertTo-SecureString 'Contraseña' -AsPlainText -Force
 $credenciales = New-Object System.Management.Automation.PSCredential ('DOMINIO\Usuario', $password)
 
-#Arreglo bidimencional. Se encapsulan los datos de ejecucion en el script.
+#Arreglo bidimencional. Se encapsulan los datos de ejecucion en el script para no depender de la conexion a la base de datos.
 $datos = @(
     [PSCustomObject]@{Numero = 1; Equipo = "Nombre de equipo"; Usuario = "Usuario"; Unidad = "https://unidadazure.file.core.windows.net/nombre de unidad?firma de acceso compartido"; Cuota = 5 },
     [PSCustomObject]@{Numero = 2; Equipo = "Nombre de equipo"; Usuario = "Usuario"; Unidad = "https://unidadazure.file.core.windows.net/nombre de unidad?firma de acceso compartido"; Cuota = 5 },
