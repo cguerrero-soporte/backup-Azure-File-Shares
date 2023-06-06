@@ -4,9 +4,9 @@ $credenciales = New-Object System.Management.Automation.PSCredential ('DOMINIO\U
 
 #Arreglo bidimencional. Se encapsulan los datos de ejecucion en el script.
 $datos = @(
-    [PSCustomObject]@{Numero = 1; Equipo = "Nombre de equipo"; Usuario = "Usuario"; Unidad = "https://unidadazure.file.core.windows.net/nonmbre de unidad?firma de acceso compartido"; Cuota = 5 },
-    [PSCustomObject]@{Numero = 2; Equipo = "Nombre de equipo"; Usuario = "Usuario"; Unidad = "https://unidadazure.file.core.windows.net/nonmbre de unidad?firma de acceso compartido"; Cuota = 5 },
-    [PSCustomObject]@{Numero = 3; Equipo = "Nombre de equipo"; Usuario = "Usuario"; Unidad = "https://unidadazure.file.core.windows.net/nonmbre de unidad?firma de acceso compartido"; Cuota = 5 }
+    [PSCustomObject]@{Numero = 1; Equipo = "Nombre de equipo"; Usuario = "Usuario"; Unidad = "https://unidadazure.file.core.windows.net/nombre de unidad?firma de acceso compartido"; Cuota = 5 },
+    [PSCustomObject]@{Numero = 2; Equipo = "Nombre de equipo"; Usuario = "Usuario"; Unidad = "https://unidadazure.file.core.windows.net/nombre de unidad?firma de acceso compartido"; Cuota = 5 },
+    [PSCustomObject]@{Numero = 3; Equipo = "Nombre de equipo"; Usuario = "Usuario"; Unidad = "https://unidadazure.file.core.windows.net/nombre de unidad?firma de acceso compartido"; Cuota = 5 }
 
 )
 
