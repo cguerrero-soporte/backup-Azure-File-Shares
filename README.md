@@ -8,4 +8,10 @@ Para obtener la firma de acceso compartido, es necesario acceder a Microsoft Azu
 agregar permisos de "Crear" y "Escribir" 
 ![image](https://github.com/cguerrero-soporte/backup-azure-fileshare/assets/54060479/6a7655ca-5d59-44d1-b032-73b6da88b447)
 
-Extender la fecha de uso en caso de ser necesario
+Extender la fecha de uso en caso de ser necesario.
+
+***Requisito fundamental azcopy.exe en la rurta del equipo del usuario. la ruta en el script es C:\Users\$usuario\azcopy.exe en las variables $comando.
+
+Como alternativa se podria usar el script WinRM-Powershell para realizar la copia de azcopy.exe de manera remota.
+
+https://learn.microsoft.com/en-us/azure/storage/common/storage-use-azcopy-v10
