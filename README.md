@@ -10,7 +10,7 @@ agregar permisos de "Crear" y "Escribir"
 
 Extender la fecha de uso en caso de ser necesario.
 
-***Requisito fundamental azcopy.exe en la rurta del equipo del usuario. la ruta en el script es C:\Users\$usuario\azcopy.exe en las variables $comando.
+***Requisito fundamental azcopy.exe en cada equipo. la ruta en el script es C:\Users\$usuario\azcopy.exe en las variables $comando.
 
 Como alternativa se podria usar el script WinRM-Powershell para realizar la copia de azcopy.exe de manera remota.
 
